@@ -21,6 +21,7 @@
 		42664E231938336D007968E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42664E051938336D007968E9 /* UIKit.framework */; };
 		42664E2B1938336D007968E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42664E291938336D007968E9 /* InfoPlist.strings */; };
 		42664E2D1938336D007968E9 /* BLEBlinkMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42664E2C1938336D007968E9 /* BLEBlinkMTests.m */; };
+		42664E3E19383592007968E9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42664E3D19383592007968E9 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		42664E281938336D007968E9 /* BLEBlinkMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEBlinkMTests-Info.plist"; sourceTree = "<group>"; };
 		42664E2A1938336D007968E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42664E2C1938336D007968E9 /* BLEBlinkMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEBlinkMTests.m; sourceTree = "<group>"; };
+		42664E3D19383592007968E9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42664E3E19383592007968E9 /* CoreBluetooth.framework in Frameworks */,
 				42664E041938336D007968E9 /* CoreGraphics.framework in Frameworks */,
 				42664E061938336D007968E9 /* UIKit.framework in Frameworks */,
 				42664E021938336D007968E9 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		42664E001938336D007968E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42664E3D19383592007968E9 /* CoreBluetooth.framework */,
 				42664E011938336D007968E9 /* Foundation.framework */,
 				42664E031938336D007968E9 /* CoreGraphics.framework */,
 				42664E051938336D007968E9 /* UIKit.framework */,
@@ -456,6 +460,7 @@
 				42664E321938336D007968E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42664E331938336D007968E9 /* Build configuration list for PBXNativeTarget "BLEBlinkMTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				42664E351938336D007968E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
